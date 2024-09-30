@@ -3,3 +3,9 @@
 @tailwind components;
 @tailwind utilities;
 
+
+.swiper-pagination-bullet-active {
+    background: #5B8C51; /* Active bullet color */
+    opacity: 1; /* Fully visible active bullet */
+    
+  }
