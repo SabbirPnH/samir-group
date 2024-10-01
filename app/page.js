@@ -10,7 +10,7 @@ import Service from "./component/Service";
 import WhyUs from "./component/WhyUs";
 import Gallery from "./component/Gallery";
 import Products from "./component/Product";
-
+import Barnd from "./component/Brand";
 
 
 export default function Home() {
@@ -31,7 +31,7 @@ export default function Home() {
       <Service/>
       <Gallery/>
       <Products/>
-      
+      <Barnd/>
     </div>
   );
 }
