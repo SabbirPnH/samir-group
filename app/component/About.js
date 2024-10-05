@@ -1,58 +1,65 @@
 import Image from "next/image";
-import { RxBorderStyle } from "react-icons/rx";
-export const About=()=>{
-    return(
-       <div className="px-4 sm:px-20 py-5 sm:py-12">
-  <div className=" lg:flex lg:flex-row items-center gap-10">
-    {/* Left Column (Image and Experience Section) */}
-    <div className="w-full lg:w-1/2">
-  <div className="grid grid-cols-2 gap-2">
-    {/* Full-height experience block */}
-    <div className="relative bg-[#EDDD5E] text-white rounded wow fadeIn h-full" data-wow-delay="0.7s">
-      <div className="about-experience rounded p-4 flex flex-col items-center justify-center h-full">
-        <h1 className="text-7xl text-[#404A3D] font-bold mb-0">15</h1>
-        <small className="text-xl text-[#404A3D] font-semibold">Years Experience</small>
+import { FaArrowRight } from "react-icons/fa";
+
+const About = () => {
+  return (
+    <div className="px-4 sm:px-20 py-5 sm:py-12 sm:mb-32 lg:" 
+>
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
+         {/* Right Side (Text and List) */}
+         <div>
+          <h6 className="text-[#F56800] text-xl font-semibold uppercase"> About Us </h6>
+          <h1 className="mb-6 text-2xl sm:text-5xl font-bold pt-2  text-[#272B36]">
+          The History of Textiles From Handcrafted
+          </h1>
+          <p className="mb-6 text-[#596277] text-md text-justify tracking-tight">
+          Textiles are materials made from fibers or yarn, and they are used to create widetest range of products such as clothing and industrial goods.
+          </p>
+          {/* List Items */}
+          <div className="space-y-6 mb-6">
+            {/* Item 1 */}
+            <div className="flex items-center ">
+              <div className=" flex-shrink-0 flex items-center justify-center w-12 h-12">
+                <span className="font-bold text-lg sm:text-2xl text-[#F56800]">01</span>
+              </div>
+              <div className="pl-4">
+                <h6 className="font-bold text-lg sm:text-2xl text-[#272B36]">Digital Shop Available</h6>
+              </div>
+            
+            </div>
+            <hr/>
+            {/* Item 2 */}
+            <div className="flex items-center ">
+              <div className=" flex-shrink-0 flex items-center justify-center w-12 h-12">
+                <span className="font-bold text-lg sm:text-2xl text-[#F56800]">02</span>
+              </div>
+              <div className="pl-4">
+                <h6 className="font-bold text-lg sm:text-2xl text-[#272B36]">Great Client Support</h6>
+              </div>
+            
+            </div>
+           
+            
+          </div>
+          <div className="flex sm:justify-start justify-center">
+            <a href="#" className="bg-[#F56800]  py-2.5 sm:py-4 mt-0 sm:mt-4  px-8 text-sm hover:bg-[#272B36]  text-white uppercase font-semibold">
+              Read More
+              <FaArrowRight className=' inline-flex ml-3' />
+
+            </a>
+          </div>
+          <Image className="absolute w-96 hidden lg:block h-52 object-cover" src="/img/3.png" alt='img' width={400} height={400} />
+        </div>
+        
+        {/* Left Side (Image) */}
+        <div className="relative pt-4" style={{ minHeight: 400 }}>
+          <Image className="absolute w-full h-full sm:h-auto object-cover" src="/img/1.jpg" alt='img' width={400} height={400} />
+        </div>
+       
       </div>
     </div>
 
-    {/* Image blocks */}
-    <div className="wow fadeIn h-full flex items-stretch" data-wow-delay="0.1s">
-      <Image className="w-full object-cover rounded" src="/img/portfolio-image-1.jpg" alt="Service 1" width={400} height={400}/>
-    </div>
-    <div className="wow fadeIn h-full flex items-stretch" data-wow-delay="0.3s">
-      <Image className="w-full object-cover rounded" src="/img/portfolio-image-6.jpg" alt="Service 2" width={400} height={400}/>
-    </div>
-    <div className="wow fadeIn sm:h-72 flex items-stretch" data-wow-delay="0.5s">
-      <Image className="w-full object-cover rounded" src="/img/portfolio-image-3.jpg" alt="Service 3" width={400} height={400}/>
-    </div>
-  </div>
-</div>
 
-
-    {/* Right Column (Text Content) */}
-    <div className="w-full lg:w-1/2 wow fadeIn" data-wow-delay="0.5s">
-      <p className="text-[#5B8C51] text-lg font-semibold uppercase text-start bg-white inline-block  py-1 rounded  pt-3 sm:pt-0 sm:mb-2">About Us <RxBorderStyle  className="inline-flex text-2xl font-semibold"/></p>
-      <h1 className="text-3xl lg:text-5xl font-bold mb-4 text-[#404A3D] text-justify">Know About Our Fish Farm &amp; Our History</h1>
-      <p className="mb-4 text-[#404A3D] text-justify">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet.</p>
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 pt-4 mb-14">
-        {/* First Feature Box */}
-        <div>
-          <img className="w-16 h-16 mb-4" src="/img/service.png" alt="Dedicated Services" />
-          <h5 className="text-lg font-semibold mb-2 text-[#404A3D]">Dedicated Services</h5>
-          <span className="text-justify">Clita erat ipsum et lorem et sit, sed stet lorem sit clita</span>
-        </div>
-        {/* Second Feature Box */}
-        <div>
-          <img className="w-16 h-16 mb-4" src="/img/product.png" alt="Organic Products" />
-          <h5 className="text-lg font-semibold mb-2 text-[#404A3D]">Organic Products</h5>
-          <span className="text-justify">Clita erat ipsum et lorem et sit, sed stet lorem sit clita</span>
-        </div>
-      </div>
-      <a href="#" className="bg-[#EDDD5E] rounded-full py-4 px-8 text-lg hover:text-black  text-[#404A3D]">Explore More</a>
-    </div>
-  </div>
-</div>
-
- 
-    )
+  )
 }
+export default About

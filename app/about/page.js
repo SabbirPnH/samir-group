@@ -1,7 +1,8 @@
 import Link from "next/link";
 import { FaChevronCircleRight } from "react-icons/fa";
-import { About } from "../component/About";
-import ScrollBanner from "../component/ScrollBanner";
+import About from "../component/About";
+import Blog from "../component/Blog";
+
 
 export async function generateMetadata() {
   return {
@@ -13,7 +14,7 @@ export async function generateMetadata() {
 const AboutPage=()=>{
     return(
         <div className=" mb-7 sm:mb-20">
-        <div className="w-full bg-cover bg-center mb-5" style={{backgroundImage: 'url("/img/bg_parallax3.jpg")'}}>
+        <div className="w-full bg-cover bg-center mb-5" style={{backgroundImage: 'url("/img/StockCake-Textile Factory Scene_1728011217.jpg")'}}>
 <div className="bg-black/70  py-10 sm:py-24">
 <div className="container mx-auto text-center">
   {/* Heading */}
@@ -35,7 +36,9 @@ const AboutPage=()=>{
 </div>
 
 <About/>
-<ScrollBanner/>
+
+<Blog />
+
     </div>
             
     )

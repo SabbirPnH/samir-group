@@ -14,7 +14,7 @@ export async function generateMetadata() {
 const ContactPage=()=>{
     return(
 <div>
-<div className="w-full bg-cover bg-center mb-5" style={{backgroundImage: 'url("/img/bg_parallax3.jpg")'}}>
+<div className="w-full bg-cover bg-center mb-5" style={{backgroundImage: 'url("/img/StockCake-Textile Factory Scene_1728011217.jpg")'}}>
   <div className="bg-black/70  py-10 sm:py-20">
     <div className="container mx-auto text-center">
       {/* Heading */}
@@ -36,13 +36,13 @@ const ContactPage=()=>{
 </div>
 <div className="px-4 sm:px-20 py-10">
 <div className="text-center pb-6" style={{ maxWidth: "500px", margin: "0 auto" }}>
-      <p className="text-[#5B8C51] flex justify-center text-lg font-semibold uppercase  inline-block py-1 rounded pt-3 sm:pt-0 sm:mb-2 flex items-center">
-  <RxBorderStyle className="inline-flex text-2xl font-semibold mr-2" />
+      <p className="text-[#F56800] text-xl font-semibold uppercase">
+
    Contact
-  <RxBorderStyle className="inline-flex text-2xl font-semibold ml-2" />
+  
 </p>
 
-        <h1 className="mb-5 text-3xl lg:text-5xl font-bold text-[#404A3D] text-center">If You Have Any Query, Please Contact </h1>
+        <h1 className="mb-6 text-2xl sm:text-5xl font-bold pt-2  text-[#272B36]">If You Have Any Query, Please Contact </h1>
       </div>
   
   <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mt-8">
@@ -52,8 +52,8 @@ const ContactPage=()=>{
     {/* Google Map */}
     <div>
     <div className="flex border-b pb-3 mb-3">
-        <div className="flex-shrink-0 bg-[#EDDD5E] rounded-full p-4">
-          <FaMapMarkerAlt className="text-gray-600" />
+        <div className="flex-shrink-0 bg-[#F56800] rounded-full p-4">
+          <FaMapMarkerAlt className="text-white" />
         </div>
         <div className="ml-3">
           <h6 className="font-bold text-[#404A3D]">Our Office</h6>
@@ -62,8 +62,8 @@ const ContactPage=()=>{
       </div>
 
       <div className="flex border-b pb-3 mb-3">
-        <div className="flex-shrink-0 bg-[#EDDD5E] rounded-full p-4">
-          <FaPhoneAlt className="text-gray-600" />
+        <div className="flex-shrink-0 bg-[#F56800] rounded-full p-4">
+          <FaPhoneAlt className="text-white" />
         </div>
         <div className="ml-3">
           <h6 className="font-bold text-[#404A3D]">Call Us</h6>
@@ -72,8 +72,8 @@ const ContactPage=()=>{
       </div>
 
       <div className="flex border-b-0 pb-3 mb-3">
-        <div className="flex-shrink-0 bg-[#EDDD5E] rounded-full p-4">
-          <FaEnvelope className="text-gray-600" />
+        <div className="flex-shrink-0 bg-[#F56800] rounded-full p-4">
+          <FaEnvelope className="text-white" />
         </div>
         <div className="ml-3">
           <h6 className="font-bold text-[#404A3D]">Mail Us</h6>
@@ -82,7 +82,7 @@ const ContactPage=()=>{
       </div>
       <iframe
         className="rounded-lg w-full h-[250px]"
-        src="https://www.google.com/maps/place/%E0%A6%A2%E0%A6%BE%E0%A6%95%E0%A6%BE/@23.7810672,90.2548725,11z/data=!3m1!4b1!4m6!3m5!1s0x3755b8b087026b81:0x8fa563bbdd5904c2!8m2!3d23.804093!4d90.4152376!16zL20vMGZuYjQ?entry=ttu&g_ep=EgoyMDI0MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+        src="https://www.google.com/maps/dir//Badda+Link+Road,+Wakil+Tower+Ta-131+Wakil+Tower,+Gulshan+Badda+Link+Rd+Dhaka+1212/@23.7808698,90.4228311,16z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3755c71f636dafaf:0xdf280c6d3c2fb65b!2m2!1d90.4228311!2d23.7808698?entry=ttu&g_ep=EgoyMDI0MTAwMi4xIKXMDSoASAFQAw%3D%3D"
         frameBorder="0"
         allowFullScreen
         aria-hidden="false"
@@ -90,10 +90,10 @@ const ContactPage=()=>{
       />
     </div>
     <div className="mt-8 lg:mt-0">
-        <h2 className='text-3xl font-semibold text-[#404A3D]'>Need a functional contact form?</h2>
-    <p className="mb-4 text-gray-600 text-center lg:text-left py-2">
-      The contact form is currently inactive. Get a functional and working contact form with Ajax & PHP in a few minutes. Just copy and paste the files, add a little code and you're done.{' '}
-      <a href="https://htmlcodex.com/contact-form" className="text-[#404A3D] font-semibold">Download Now</a>.
+        <h2 className='text-3xl font-semibold text-[#272B36]'>Need a functional contact form?</h2>
+    <p className="mb-4 text-[#596277] text-center lg:text-left py-2">
+      The contact form is currently inactive. Get a functional and working contact form with Ajax & PHP in a few minutes. Just copy and paste the files add a little code and you&aposre done.
+      <a href="https://htmlcodex.com/contact-form" className="text-[#F56800] font-semibold">Download Now.</a>
     </p>
     <form>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -141,7 +141,7 @@ const ContactPage=()=>{
       </div>
 
       {/* Submit Button */}
-      <button className="w-full uppercase mt-6 bg-[#EDDD5E] text-black  py-3 px-5   transition-colors duration-300">
+      <button className="w-full uppercase mt-6 bg-[#F56800] text-white  py-3 px-5   transition-colors duration-300">
         Send Message
       </button>
     </form>

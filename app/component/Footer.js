@@ -4,7 +4,7 @@ import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope, FaTwitter, FaFacebookF, FaYoutu
 const Footer = () => {
     return (
         <div className="relative px-4 sm:px-20 text-white pt-5 mt-5" style={{
-            backgroundImage: "url('/img/footer (1).jpg')",
+            backgroundImage: "url('/img/footer.jpg')",
             backgroundSize: "cover",
             backgroundPosition: "center",
         }}>
@@ -19,10 +19,10 @@ const Footer = () => {
                             <p className="mb-2"><FaPhoneAlt className="inline-block mr-2" />+012 345 67890</p>
                             <p className="mb-2"><FaEnvelope className="inline-block mr-2" />info@example.com</p>
                             <div className="flex pt-2">
-                                <a className="mr-2 border border-white p-2 rounded-full hover:text-[#404A3D] hover:bg-[#EDDD5E]" href=""><FaTwitter /></a>
-                                <a className="mr-2 border border-white p-2 rounded-full hover:text-[#404A3D] hover:bg-[#EDDD5E]" href=""><FaFacebookF /></a>
-                                <a className="mr-2 border border-white p-2 rounded-full hover:text-[#404A3D] hover:bg-[#EDDD5E]" href=""><FaYoutube /></a>
-                                <a className='border border-white p-2 rounded-full hover:text-[#404A3D] hover:bg-[#EDDD5E]' href=""><FaLinkedinIn /></a>
+                                <a className="mr-2 border border-white p-2 rounded-full hover:text-[#fff] hover:bg-[#F56800]" href=""><FaTwitter /></a>
+                                <a className="mr-2 border border-white p-2 rounded-full hover:text-[#fff] hover:bg-[#F56800]" href=""><FaFacebookF /></a>
+                                <a className="mr-2 border border-white p-2 rounded-full hover:text-[#fff] hover:bg-[#F56800]" href=""><FaYoutube /></a>
+                                <a className='border border-white p-2 rounded-full hover:text-[#fff] hover:bg-[#F56800]' href=""><FaLinkedinIn /></a>
                             </div>
                         </div>
 
@@ -75,7 +75,7 @@ const Footer = () => {
                             <p className="mb-4">Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
                             <div className="relative mx-auto " style={{ maxWidth: '400px' }}>
                                 <input className="form-input rounded-md border-0 w-full py-4 pl-4 pr-10 text-[#596277] outline-none placeholder:text-[#596277]" type="text" placeholder="Your email" />
-                                <button type="button" className="absolute top-0 rounded-md right-0 mr-2 bg-[#EDDD5E] text-black mt-2  py-2 px-4 uppercase">SignUp</button>
+                                <button type="button" className="absolute top-0 rounded-md right-0 mr-2 bg-[#F56800] text-white mt-2  py-2 px-4 uppercase">SignUp</button>
                             </div>
                         </div>
                     </div>
