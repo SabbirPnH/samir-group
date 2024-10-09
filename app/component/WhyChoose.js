@@ -3,7 +3,7 @@ import React from 'react';
 import { FaHeart, FaThumbsUp, FaBrain, FaLifeRing } from 'react-icons/fa'; // Import icons
 
 const IconBox = ({ icon: IconComponent, title, description }) => (
-  <div className="flex items-start space-x-4 p-4 ">
+  <div className="flex items-start space-x-4  ">
     <div className="text-3xl text-[#F56800]">
       <IconComponent /> {/* Use the imported icon component here */}
     </div>
@@ -23,7 +23,7 @@ const WhyChooseUs = () => {
           {/* Left column */}
           <div >
             <h6 className="text-[#F56800] text-xl font-semibold uppercase mb-2">Why choose us</h6>
-            <h2 className="mb-6 text-2xl sm:text-5xl font-bold pt-2 text-[#272B36]">Relaxation and your satisfaction.</h2>
+           
             <p className="mb-8 text-[#596277] text-md text-justify tracking-tight">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec
               ullamcorper mattis, pulvinar dapibus leo.
@@ -46,11 +46,7 @@ const WhyChooseUs = () => {
                 title="Professional Expert"
                 description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis."
               />
-              <IconBox
-                icon={FaLifeRing}
-                title="24/7 Premium support"
-                description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis."
-              />
+             
             </div>
           </div>
 
@@ -59,7 +55,7 @@ const WhyChooseUs = () => {
             <Image
               src="/img/StockCake-Textile Factory Scene_1728011217.jpg"
               alt="Assorted-color yarn lot"
-              className=" w-full h-full"
+              className=" w-full h-56 sm:h-96"
               width={400} height={400}
             />
           </div>

@@ -6,11 +6,16 @@ import "aos/dist/aos.css";
 import { Carousel } from "./component/Crousel";
 import About from "./component/About";
 import ImageCard from "./component/ImageCard";
-import Texttile from "./component/Texttile";
 import VideoModalSection from "./component/VideoModal";
 import WhyChooseUs from "./component/WhyChoose";
 import Blog from "./component/Blog";
 import Brand from "./component/Brand";
+import { ShayariCollection } from "./component/Product";
+import { ThreePcsCollection } from "./component/ThreePcsCollection";
+import { PanjabiCollection } from "./component/PanjabiCollection";
+
+
+
 
 
 
@@ -28,7 +33,9 @@ export default function Home() {
       <Carousel/>
       <ImageCard/>
       <About/>
-      <Texttile/>
+      <ShayariCollection/>
+      <ThreePcsCollection/>
+      <PanjabiCollection/>
       <VideoModalSection/>
       <WhyChooseUs/>
       <Brand/>

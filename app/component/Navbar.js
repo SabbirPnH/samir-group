@@ -36,7 +36,7 @@ const Navbar = () => {
   return (
     <div>
       {/* Topbar - Initially Fixed */}
-      <div
+      {/* <div
         className={`bg-[#272B36] p-0 transition-all duration-300 fixed top-0 w-full z-50  ${isTopbarVisible ? "block" : "hidden"
           }`}
       >
@@ -73,21 +73,25 @@ const Navbar = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       {/* Navbar */}
       <header
         className={`w-full bg-white text-[#272B36] font-semibold uppercase body-font shadow-sm transition-all duration-300 z-40 ${isNavbarSticky ? "fixed top-0" : "relative"
-          } ${isTopbarVisible ? " lg:mt-[50px]" : "mt-0"}`} // Adjust margin-top when topbar is visible or hidden
+          } ${isTopbarVisible ? " lg:mt-[0px]" : "mt-0"}`} // Adjust margin-top when topbar is visible or hidden
       >
         <div className=" flex justify-between items-center py-5 px-4 sm:px-10">
           {/* Site Logo and Name */}
-          <Link
+          <div className="flex items-center gap-2 sm:gap-4">
+         <Link
             href={"/"}
             className="flex flex-shrink-0 title-font font-medium items-center text-gray-900 md:mb-0"
           >
-            <Image className="h-12 w-52" src="/img/tv10 (1).png" alt="logo-image" width={400} height={400} />
+            <Image className="h-12 w-full" src="/img/logo.jpg" alt="logo-image" width={400} height={400}/>
+            
           </Link>
+          <p className="text-[14px] sm:text-[16px] capitalize text-[#F56800]">Samir Textile Pvt. Ltd.</p>
+         </div>
 
           {/* Navbar Links */}
           <nav className="hidden md:ml-auto md:flex flex-wrap items-center justify-center text-base tracking-wide">
@@ -101,9 +105,9 @@ const Navbar = () => {
                 about
               </li>
             </Link>
-            <Link href={"/service"} onClick={() => setActiveLink("/service")}>
-              <li className={`mr-8 list-none ${activeLink === "/service" ? "text-[#F56800]" : "text-[#272B36]"}`}>
-                service
+            <Link href={"/product"} onClick={() => setActiveLink("/product")}>
+              <li className={`mr-8 list-none ${activeLink === "/product" ? "text-[#F56800]" : "text-[#272B36]"}`}>
+               Product
               </li>
             </Link>
             <Link href={"/contact"} onClick={() => setActiveLink("/contact")}>
