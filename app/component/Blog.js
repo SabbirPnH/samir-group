@@ -6,7 +6,7 @@ const Blog = () => {
     <div className=" grid grid-col-1 sm:flex justify-between">
       <div className="text-left">
         <h4 className="text-[#F56800] text-xl font-semibold uppercase">Directly From The Blog</h4>
-        <h2 className="mb-6 text-2xl sm:text-5xl font-bold pt-2 text-[#272B36]">We believe in counting numbers</h2>
+        <h2 className="mb-6 text-2xl sm:text-5xl font-bold pt-2 text-[#272B36]">Latest Insights Directly from Our Blog</h2>
       </div>
       <a href="#" className="  py-2.5 sm:py-4 mt-0 sm:mt-4   text-sm  text-[#F56800] uppercase font-semibold">
               View More
@@ -21,10 +21,10 @@ const Blog = () => {
       <Image src="/img/ (1).png" alt="Blog Post 1" className="w-full h-48 object-cover" width={400} height={400} />
       <div className="p-6">
         <h2 className="text-xl font-semibold mb-2">
-          <a href="#" className="text-[#F56800] hover:underline">Can textiles lead during the pandemic?</a>
+          <a href="#" className="text-[#F56800] hover:underline text-justify">Can textiles lead during the pandemic?</a>
         </h2>
         <p className="text-gray-600 mb-4">25 May, 2022</p>
-        <p className="text-gray-800">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo ligula eget dolor...</p>
+        <p className="text-gray-800 text-justify">During the pandemic, textiles quickly pivoted to address the urgent need for personal protective equipment. Manufacturers shifted their focus to producing face masks, gowns, and other essential medical gear, ensuring frontline workers and the public were protected. The rapid adaptability of the textile sector proved invaluable in combating shortages.</p>
       </div>
     </div>
     {/* Blog Post 2 */}
@@ -32,10 +32,10 @@ const Blog = () => {
       <Image src="/img/ (2).jpg" alt="Blog Post 2" className="w-full h-48 object-cover" width={400} height={400} />
       <div className="p-6">
         <h2 className="text-xl font-semibold mb-2">
-          <a href="#" className="text-[#F56800] hover:underline">The Story of a Silk Lends Cotton like Comfort Rayon</a>
+          <a href="#" className="text-[#F56800] hover:underline">Support for Local Economies</a>
         </h2>
-        <p className="text-gray-600 mb-4">18 May, 2022</p>
-        <p className="text-gray-800">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo ligula eget dolor...</p>
+        <p className="text-gray-600 mb-4 text-justify">18 May, 2022</p>
+        <p className="text-gray-800 text-justify">With global supply chains disrupted, many countries turned to local textile manufacturers to meet the demand for PPE and essential goods. This not only ensured a steady supply of protective equipment but also supported local economies and jobs during a time of global uncertainty.</p>
       </div>
     </div>
     {/* Blog Post 3 */}
@@ -43,10 +43,12 @@ const Blog = () => {
       <Image src="/img/ (1).jpg" alt="Blog Post 3" className="w-full h-48 object-cover" width={400} height={400}  />
       <div className="p-6">
         <h2 className="text-xl font-semibold mb-2">
-          <a href="#" className="text-[#F56800] hover:underline">Contactless Payments Time Come</a>
+          <a href="#" className="text-[#F56800] hover:underline text-justify">Health and Well-being through Textiles</a>
         </h2>
-        <p className="text-gray-600 mb-4">10 May, 2022</p>
-        <p className="text-gray-800">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo ligula eget dolor...</p>
+        <p className="text-gray-600 mb-4">17 Oct, 2023</p>
+        <p className="text-gray-800 text-justify">Beyond PPE, the pandemic sparked innovations in textiles designed for comfort and health. This includes fabrics with moisture-wicking properties, thermal regulation, and other benefits to enhance well-being, especially as people spent more time at home. Textiles designed for mental and physical comfort became an important aspect of home life during lockdowns.
+
+</p>
       </div>
     </div>
 

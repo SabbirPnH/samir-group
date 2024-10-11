@@ -1,11 +1,6 @@
 
 "use client";
 import React, { useState, useEffect } from "react";
-import { SiGooglemaps } from "react-icons/si";
-import { TbClock } from "react-icons/tb";
-import { IoCall } from "react-icons/io5";
-import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa6";
-import { IoLogoInstagram } from "react-icons/io5";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -35,46 +30,6 @@ const Navbar = () => {
 
   return (
     <div>
-      {/* Topbar - Initially Fixed */}
-      {/* <div
-        className={`bg-[#272B36] p-0 transition-all duration-300 fixed top-0 w-full z-50  ${isTopbarVisible ? "block" : "hidden"
-          }`}
-      >
-        <div className="hidden lg:flex justify-between items-center px-4 sm:px-10">
-          <div className="flex space-x-6">
-            <div className="flex items-center py-3">
-              <SiGooglemaps className="text-[#F56800] mr-2" />
-              <span className="text-sm text-white ">1216, Dhaka, BANGLADESH</span>
-            </div>
-            <div className="flex items-center py-3">
-              <TbClock className="text-[#F56800] mr-2" />
-              <span className="text-sm text-white ">Mon - Fri : 09.00 AM - 09.00 PM</span>
-            </div>
-          </div>
-
-          <div className="flex items-center space-x-6">
-            <div className="flex items-center py-3">
-              <IoCall className="text-[#F56800] mr-2" />
-              <span className="text-sm text-white ">+012 345 6789</span>
-            </div>
-            <div className="flex items-center space-x-2">
-              <a className="bg-white text-[#F56800] p-2" href="#">
-                <FaFacebookF />
-              </a>
-              <a className="bg-white text-[#F56800] p-2" href="#">
-                <FaTwitter />
-              </a>
-              <a className="bg-white text-[#F56800] p-2" href="#">
-                <FaLinkedinIn />
-              </a>
-              <a className="bg-white text-[#F56800] p-2" href="#">
-                <IoLogoInstagram />
-              </a>
-            </div>
-          </div>
-        </div>
-      </div> */}
-
       {/* Navbar */}
       <header
         className={`w-full bg-white text-[#272B36] font-semibold uppercase body-font shadow-sm transition-all duration-300 z-40 ${isNavbarSticky ? "fixed top-0" : "relative"
@@ -172,9 +127,9 @@ const Navbar = () => {
                 about
               </li>
             </Link>
-            <Link href={"/service"} onClick={() => setActiveLink("/service")}>
-              <li className={`block px-3 py-2 ${activeLink === "/service" ? "text-[#F56800]" : "text-[#272B36]"}  list-none`}>
-                service
+            <Link href={"/product"} onClick={() => setActiveLink("/product")}>
+              <li className={`block px-3 py-2 ${activeLink === "/product" ? "text-[#F56800]" : "text-[#272B36]"}  list-none`}>
+               Product
               </li>
             </Link>
             <Link href={"/contact"} onClick={() => setActiveLink("/contact")}>

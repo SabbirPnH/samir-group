@@ -25,26 +25,25 @@ const WhyChooseUs = () => {
             <h6 className="text-[#F56800] text-xl font-semibold uppercase mb-2">Why choose us</h6>
            
             <p className="mb-8 text-[#596277] text-md text-justify tracking-tight">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec
-              ullamcorper mattis, pulvinar dapibus leo.
+            At Samir Textil, we pride ourselves on delivering exceptional quality, innovative solutions, and unmatched customer service. Here’s why you should choose us.
             </p>
 
             {/* Icon Boxes */}
             <div className="space-y-6">
               <IconBox
                 icon={FaHeart}
-                title="Exceed your expectations"
-                description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis."
+                title="Expertise and Experience"
+                description="With years of experience in Samir textil, our team of skilled professionals brings in-depth knowledge and expertise to every project."
               />
               <IconBox
                 icon={FaThumbsUp}
-                title="Deliver 100% satisfaction"
-                description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis."
+                title="Commitment to Quality"
+                description="We are dedicated to maintaining the highest standards in everything we do."
               />
               <IconBox
                 icon={FaBrain}
-                title="Professional Expert"
-                description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis."
+                title="Customer-Centric Approach"
+                description="Your satisfaction is our top priority. We take the time to understand your goals and challenges."
               />
              
             </div>

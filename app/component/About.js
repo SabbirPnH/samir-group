@@ -82,7 +82,7 @@ const About = () => {
               Samir Textile Pvt. Ltd.
             </h1>
             <p className="mb-6 text-[#596277] text-md text-justify tracking-tight">
-              Samir textile pvt. Ltd. company provide fashion design and necessary accessories. We understand customer needs, that's why we provide unique products. Beside we produce male, female, and babies items. Our product is manufactured in our own factory. Samir textile produces 3pcs, shari, lungi, bed sheet, T-shirt, kids items, Panjabi. We are a wholesaler and retailer. We are committed to producing high-quality products.
+              Samir textile pvt. Ltd. company provide fashion design and necessary accessories. We understand customer needs, that&aposs why we provide unique products. Beside we produce male, female, and babies items. Our product is manufactured in our own factory. Samir textile produces 3pcs, shari, lungi, bed sheet, T-shirt, kids items, Panjabi. We are a wholesaler and retailer. We are committed to producing high-quality products.
             </p>
           </div>
 
