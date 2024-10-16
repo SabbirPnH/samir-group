@@ -35,41 +35,52 @@ const Navbar = () => {
         className={`w-full bg-white text-[#272B36] font-semibold uppercase body-font shadow-sm transition-all duration-300 z-40 ${isNavbarSticky ? "fixed top-0" : "relative"
           } ${isTopbarVisible ? " lg:mt-[0px]" : "mt-0"}`} // Adjust margin-top when topbar is visible or hidden
       >
-        <div className=" flex justify-between items-center py-5 px-4 sm:px-10">
+        <div className=" flex justify-between items-center py-5 px-4 sm:px-20">
           {/* Site Logo and Name */}
           <div className="flex items-center gap-2 sm:gap-4">
          <Link
             href={"/"}
             className="flex flex-shrink-0 title-font font-medium items-center text-gray-900 md:mb-0"
           >
-            <Image className="h-12 w-full" src="/img/logo.jpg" alt="logo-image" width={400} height={400}/>
+            <Image className="h-12 w-full" src="/img/logo (2).png" alt="logo-image" width={400} height={400}/>
             
           </Link>
-          <p className="text-[14px] sm:text-[16px] capitalize text-[#F56800]">Samir Textile Pvt. Ltd.</p>
+         
          </div>
 
           {/* Navbar Links */}
           <nav className="hidden md:ml-auto md:flex flex-wrap items-center justify-center text-base tracking-wide">
             <Link href={"/"} onClick={() => setActiveLink("/")}>
-              <li className={`mr-8 list-none ${activeLink === "/" ? "text-[#F56800]" : "text-[#272B36]"}`}>
+              <li className={`mr-8 list-none ${activeLink === "/" ? "text-[#E72929]" : "text-[#272B36]"}`}>
                 home
               </li>
             </Link>
-            <Link href={"/about"} onClick={() => setActiveLink("/about")}>
-              <li className={`mr-8 list-none ${activeLink === "/about" ? "text-[#F56800]" : "text-[#272B36]"}`}>
+            <Link href={"#about"} onClick={() => setActiveLink("#about")}>
+              <li className={`mr-8 list-none ${activeLink === "#about" ? "text-[#E72929]" : "text-[#272B36]"}`}>
                 about
               </li>
             </Link>
+            <Link href={"#company"} onClick={() => setActiveLink("#company")}>
+              <li className={`mr-8 list-none ${activeLink === "#company" ? "text-[#E72929]" : "text-[#272B36]"}`}>
+              OUR COMPANY
+              </li>
+            </Link>
+            <Link href={"#message"} onClick={() => setActiveLink("#message")}>
+              <li className={`mr-8 list-none ${activeLink === "#message" ? "text-[#E72929]" : "text-[#272B36]"}`}>
+              MESSAGE
+              </li>
+            </Link>
             <Link href={"/product"} onClick={() => setActiveLink("/product")}>
-              <li className={`mr-8 list-none ${activeLink === "/product" ? "text-[#F56800]" : "text-[#272B36]"}`}>
-               Product
+              <li className={`mr-8 list-none ${activeLink === "/product" ? "text-[#E72929]" : "text-[#272B36]"}`}>
+              MISSION&VISION
               </li>
             </Link>
-            <Link href={"/contact"} onClick={() => setActiveLink("/contact")}>
-              <li className={`list-none ${activeLink === "/contact" ? "text-[#F56800]" : "text-[#272B36]"}`}>
-                Contact
+            <Link href={"#contact"} onClick={() => setActiveLink("#contact")}>
+              <li className={`list-none ${activeLink === "#contact" ? "text-[#E72929]" : "text-[#272B36]"}`}>
+              Contact
               </li>
             </Link>
+            
           </nav>
 
           {/* Burger icon for mobile */}
@@ -118,22 +129,32 @@ const Navbar = () => {
         >
           <div className="flex flex-col py-4 px-3 md:hidden text-base uppercase font-semibold">
             <Link href={"/"} onClick={() => setActiveLink("/")}>
-              <li className={`block px-3 py-2 ${activeLink === "/" ? "text-[#F56800]" : "text-[#272B36]"}  list-none`}>
+              <li className={`block px-3 py-2 ${activeLink === "/" ? "text-[#E72929]" : "text-[#272B36]"}  list-none`}>
                 home
               </li>
             </Link>
-            <Link href={"/about"} onClick={() => setActiveLink("/about")}>
-              <li className={`block px-3 py-2 ${activeLink === "/about" ? "text-[#F56800]" : "text-[#272B36]"}  list-none`}>
+            <Link href={"#about"} onClick={() => setActiveLink("#about")}>
+              <li className={`block px-3 py-2 ${activeLink === "#about" ? "text-[#E72929]" : "text-[#272B36]"}  list-none`}>
                 about
               </li>
             </Link>
-            <Link href={"/product"} onClick={() => setActiveLink("/product")}>
-              <li className={`block px-3 py-2 ${activeLink === "/product" ? "text-[#F56800]" : "text-[#272B36]"}  list-none`}>
-               Product
+            <Link href={"#company"} onClick={() => setActiveLink("#company")}>
+              <li className={`block px-3 py-2 ${activeLink === "#company" ? "text-[#E72929]" : "text-[#272B36]"}  list-none`}>
+              Our Company
               </li>
             </Link>
-            <Link href={"/contact"} onClick={() => setActiveLink("/contact")}>
-              <li className={`block px-3 py-2 ${activeLink === "/contact" ? "text-[#F56800]" : "text-[#272B36]"}  list-none`}>
+            <Link href={"/#message"} onClick={() => setActiveLink("#message")}>
+              <li className={`block px-3 py-2 ${activeLink === "#message" ? "text-[#E72929]" : "text-[#272B36]"}  list-none`}>
+              Message
+              </li>
+            </Link>
+            <Link href={"#mission"} onClick={() => setActiveLink("#mission")}>
+              <li className={`block px-3 py-2 ${activeLink === "#mission" ? "text-[#E72929]" : "text-[#272B36]"}  list-none`}>
+              Message
+              </li>
+            </Link>
+            <Link href={"#contact"} onClick={() => setActiveLink("#contact")}>
+              <li className={`block px-3 py-2 ${activeLink === "#contact" ? "text-[#E72929]" : "text-[#272B36]"}  list-none`}>
                 Contact
               </li>
             </Link>

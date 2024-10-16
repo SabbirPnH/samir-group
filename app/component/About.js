@@ -1,129 +1,60 @@
-// import Image from "next/image";
-// import { FaArrowRight } from "react-icons/fa";
-
-// const About = () => {
-//   return (
-//     <div className="px-4 sm:px-20 py-5 sm:py-12 sm:mb-32 lg:" 
-// >
-//       <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
-//          {/* Right Side (Text and List) */}
-//          <div>
-//           <h6 className="text-[#F56800] text-xl font-semibold uppercase"> About Us </h6>
-//           <h1 className="mb-6 text-2xl sm:text-5xl font-bold pt-2  text-[#272B36]">
-//           Samir Textile Pvt. Ltd.
-//           </h1>
-//           <p className="mb-6 text-[#596277] text-md text-justify tracking-tight">
-//           Samir textile pvt. Ltd. company provide fashion design and necessary accessories.We understand customer needs thats why we provide unique products. Beside we produce male, female, and babies items. Our product manufacture from own factory. Samir textile produce 3pcs, shari, lungi, bed sheet, T-Shirt, kids item, Panjabi. We are supplier wholesaler and retailer. We are committed to produce good product.
-//           </p>
-//           {/* List Items */}
-//           <div className="space-y-6 mb-6">
-//             {/* Item 1 */}
-//             <div className="flex items-center ">
-//               <div className=" flex-shrink-0 flex items-center justify-center w-12 h-12">
-//                 <span className="font-bold text-lg sm:text-2xl text-[#F56800]">01</span>
-//               </div>
-//               <div className="pl-4">
-//                 <h6 className="font-bold text-lg sm:text-2xl text-[#272B36]">Digital Shop Available</h6>
-//               </div>
-            
-//             </div>
-//             <hr/>
-//             {/* Item 2 */}
-//             <div className="flex items-center ">
-//               <div className=" flex-shrink-0 flex items-center justify-center w-12 h-12">
-//                 <span className="font-bold text-lg sm:text-2xl text-[#F56800]">02</span>
-//               </div>
-//               <div className="pl-4">
-//                 <h6 className="font-bold text-lg sm:text-2xl text-[#272B36]">Great Client Support</h6>
-//               </div>
-            
-//             </div>
-           
-            
-//           </div>
-//           <div className="flex sm:justify-start justify-center">
-//             <a href="#" className="bg-[#F56800]  py-2.5 sm:py-4 mt-0 sm:mt-4  px-8 text-sm hover:bg-[#272B36]  text-white uppercase font-semibold">
-//               Read More
-//               <FaArrowRight className=' inline-flex ml-3' />
-
-//             </a>
-//           </div>
-//           <Image className="absolute w-96 hidden lg:block h-52 object-cover" src="/img/3.png" alt='img' width={400} height={400} />
-//         </div>
-        
-//         {/* Left Side (Image) */}
-//         <div className="relative pt-4" style={{ minHeight: 400 }}>
-//           <Image className="absolute w-full h-full sm:h-auto object-cover" src="/img/1.jpg" alt='img' width={400} height={400} />
-//         </div>
-       
-//       </div>
-//     </div>
-
-
-//   )
-// }
-// export default About
-
-
-
-
 import Image from "next/image";
-import { FaArrowRight } from "react-icons/fa";
-
+import { FaStaylinked } from "react-icons/fa6";
 const About = () => {
   return (
-    <div className="px-4 sm:px-20 py-5 sm:py-12 ">
-      <div className="flex flex-col lg:flex-row gap-10">
-        {/* Right Side (Text and List) */}
-        <div className="flex-1 flex flex-col justify-between">
-          <div>
-            <h6 className="text-[#F56800] text-xl font-semibold uppercase">About Us</h6>
-            <h1 className="mb-6 text-2xl sm:text-5xl font-bold pt-2 text-[#272B36]">
-              Samir Textile Pvt. Ltd.
-            </h1>
-            <p className="mb-6 text-[#596277] text-md text-justify tracking-tight">
-              Samir textile pvt. Ltd. company provide fashion design and necessary accessories. We understand customer needs, that&aposs why we provide unique products. Beside we produce male, female, and babies items. Our product is manufactured in our own factory. Samir textile produces 3pcs, shari, lungi, bed sheet, T-shirt, kids items, Panjabi. We are a wholesaler and retailer. We are committed to producing high-quality products.
-            </p>
-          </div>
-
-          {/* List Items */}
-          <div className="space-y-6 mb-6">
-            {/* Item 1 */}
-            <div className="flex items-center">
-              <div className="flex-shrink-0 flex items-center justify-center w-12 h-12">
-                <span className="font-bold text-lg sm:text-2xl text-[#F56800]">01</span>
-              </div>
-              <div className="pl-4">
-                <h6 className="font-bold text-lg sm:text-2xl text-[#272B36]">Digital Shop Available</h6>
-              </div>
-            </div>
-            <hr />
-
-            {/* Item 2 */}
-            <div className="flex items-center">
-              <div className="flex-shrink-0 flex items-center justify-center w-12 h-12">
-                <span className="font-bold text-lg sm:text-2xl text-[#F56800]">02</span>
-              </div>
-              <div className="pl-4">
-                <h6 className="font-bold text-lg sm:text-2xl text-[#272B36]">Great Client Support</h6>
-              </div>
-            </div>
-          </div>
-
-          <div className="flex sm:justify-start justify-center">
-            <a href="#" className="bg-[#F56800] py-2.5 sm:py-4 px-8 text-sm hover:bg-[#272B36] text-white uppercase font-semibold">
-              Read More
-              <FaArrowRight className="inline-flex ml-3" />
-            </a>
-          </div>
+<section className=" py-5 sm:py-10 relative" id="#about">
+  <div className="w-full  px-4 sm:px-20">
+    <div className="w-full justify-start items-center gap-12 grid lg:grid-cols-2 grid-cols-1">
+      <div className="w-full justify-center items-start gap-6 grid sm:grid-cols-2 grid-cols-1 lg:order-first order-last">
+        <div className=" sm:pt-24 lg:justify-center sm:justify-end justify-start items-start gap-2.5 flex">
+          <Image className=" rounded-xl object-cover h-80" src="/img/StockCake-Successful business handshake_1728970886.jpg" alt="about Us image"  width={400} height={400}/>
         </div>
-
-        {/* Left Side (Image) */}
-        <div className="flex-1 relative">
-          <Image className="absolute w-full h-full object-cover" src="/img/1.jpg" alt="img" layout="fill" />
+        <Image className="sm:ml-0 ml-auto rounded-xl object-cover h-80 " src="/img/StockCake-Analyzing Data Trends_1728970526.jpg" alt="about Us image" width={400} height={400}/>
+      </div>
+      <div className="w-full flex-col justify-center lg:items-start items-center gap-10 inline-flex">
+        <div className="w-full flex-col justify-center items-start gap-4 flex">
+          <div className="w-full flex-col justify-start lg:items-start items-center gap-3 flex">
+            <h2 className="text-[#E72929] text-4xl font-bold font-manrope uppercase leading-normal lg:text-start text-center">
+            About Us</h2>
+            <p className="text-gray-500 text-base font-normal leading-relaxed  text-justify">
+            Dear Visitors Welcome to the website of samir group of companies and thanks for your interest. It is with believed that I started samir group BD in 2004, this side will give you an excellent insight about our company and its capability. Only a click away you will find a lot of useful information about the different products and services we provide. The mission of samir group is it succeeds customer’s expectations by providing outstanding customer care through innovations created by talented, satisfied employees while positively contributing to all over the country.</p>
+            <h3 className=" text-sm sm:text-2xl font-semibold sm:font-bold text-[#E72929]">At present we operate in the following fields:</h3>
+          </div>
+         <div>
+          <div className='flex items-center gap-2 cursor-pointer'>
+          <FaStaylinked  className='text-[#E72929]'/>
+          <p className='font-semibold text-black'>Samir Textile (Pvt) Ltd.</p>
+          </div>
+          <div className='flex items-center gap-2 cursor-pointer'>
+          <FaStaylinked  className='text-[#E72929]'/>
+          <p className='font-semibold text-black'>Samir Motors Corporation</p>
+          </div>
+         
+          <div className='flex items-center gap-2 cursor-pointer'>
+          <FaStaylinked  className='text-[#E72929]'/>
+          <p className='font-semibold text-black'>Saimon Agro & Fisheries Farm</p>
+          </div>
+          <div className='flex items-center gap-2 cursor-pointer'>
+          <FaStaylinked  className='text-[#E72929]'/>
+          <p className='font-semibold text-black'>Saima International</p>
+          </div>
+          <div className='flex items-center gap-2 cursor-pointer'>
+          <FaStaylinked  className='text-[#E72929]'/>
+          <p className='font-semibold text-black'>Saif Foreign Consultancy</p>
+          </div>
+          <div className='flex items-center gap-2 cursor-pointer'>
+          <FaStaylinked  className='text-[#E72929]'/>
+          <p className='font-semibold text-black'>Air Way International</p>
+          </div>
+         </div>
         </div>
+        
       </div>
     </div>
+  </div>
+</section>
+
+                                        
   );
 };
 

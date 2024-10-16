@@ -23,10 +23,10 @@ import Image from 'next/image'; // Import the Next.js Image component
 
 // Array of image sources
 const images = [
-  '/img/banner (3).jpg',
-  '/img/banner (2).jpg',
-  '/img/banner (4).jpg',
-  '/img/banner (1).jpg',
+  '/img/7h4f_c4ir_140730.jpg',
+  '/img/StockCake-Car Showroom Interior_1728968486.jpg',
+  '/img/1 (1).jpg',
+  '/img/clothes-store-with-rack-clothes.jpg',
 ];
 
 export const Carousel = () => {
@@ -54,7 +54,7 @@ export const Carousel = () => {
       <div className='px-4 sm:px-20'>
         <CarouselControl>
           <CarouselButtons>
-            <CarouselPrevButton />
+            <CarouselPrevButton  />
             <CarouselNextButton />
           </CarouselButtons>
           <CarouselIndicators />
