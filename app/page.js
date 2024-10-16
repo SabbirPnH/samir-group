@@ -13,8 +13,6 @@ import MissionVission from "./component/MissionVission";
 
 
 
-
-
 export default function Home() {
   useEffect(() => {
     Aos.init({
@@ -25,7 +23,7 @@ export default function Home() {
   }, []);
 
   return (
-    <div>
+    <div id="home">
       <Carousel/>
       <About/>
       <Company/>
@@ -35,3 +33,5 @@ export default function Home() {
     </div>
   );
 }
+
+

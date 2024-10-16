@@ -49,25 +49,25 @@ const Footer = () => {
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth={3} strokeLinecap="round" strokeLinejoin="round" className="inline mr-2 h-5 w-5">
                                     <path d="M9 18l6-6-6-6" />
                                 </svg>
-                                <Link href={"#"} className="text-white w-full transition-all duration-300 group-hover:tracking-widest">Samir Textile Pvt. Ltd.</Link>
+                                <Link target="_blank" href={"https://textile.samirgroupbd.com/"} className="text-white w-full transition-all duration-300 group-hover:tracking-widest">Samir Textile Pvt. Ltd.</Link>
                             </li>
                             <li className="transition-all duration-300 flex items-center left-0 relative group mb-2">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth={3} strokeLinecap="round" strokeLinejoin="round" className="inline mr-2 h-5 w-5">
                                     <path d="M9 18l6-6-6-6" />
                                 </svg>
-                                <Link href={"#"} className="text-white w-full transition-all duration-300 group-hover:tracking-widest">Samir Motor Corporation</Link>
+                                <Link target="_blank" href={"https://motors.samirgroupbd.com/"} className="text-white w-full transition-all duration-300 group-hover:tracking-widest">Samir Motor Corporation</Link>
                             </li>
                             <li className="transition-all duration-300 flex items-center left-0 relative group mb-2">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth={3} strokeLinecap="round" strokeLinejoin="round" className="inline mr-2 h-5 w-5">
                                     <path d="M9 18l6-6-6-6" />
                                 </svg>
-                                <Link href={"#"} className="text-white w-full transition-all duration-300 group-hover:tracking-widest"> Saimon Agro & Fisheries Farm.</Link>
+                                <Link target="_blank" href={"https://agro.samirgroupbd.com/"} className="text-white w-full transition-all duration-300 group-hover:tracking-widest"> Saimon Agro & Fisheries Farm.</Link>
                             </li>
                             <li className="transition-all duration-300 flex items-center left-0 relative group mb-2">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth={3} strokeLinecap="round" strokeLinejoin="round" className="inline mr-2 h-5 w-5">
                                     <path d="M9 18l6-6-6-6" />
                                 </svg>
-                                <Link href={"#"} className="text-white w-full transition-all duration-300 group-hover:tracking-widest"> Saima International.</Link>
+                                <Link target="_blank" href={"https://beta.samirgroupbd.com/"} className="text-white w-full transition-all duration-300 group-hover:tracking-widest"> Saif Foreign Consultancy</Link>
                             </li>
                             <li className="transition-all duration-300 flex items-center left-0 relative group mb-2">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth={3} strokeLinecap="round" strokeLinejoin="round" className="inline mr-2 h-5 w-5">

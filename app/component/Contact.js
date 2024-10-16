@@ -6,7 +6,7 @@ import { GiFactory } from "react-icons/gi";
 import { HiOutlineMail } from "react-icons/hi";
 const Contact=()=>{
     return(
-      <div className="px-4 sm:px-20 sm:py-10 bg-gray-50" id="#contact">
+      <section className="px-4 sm:px-20 sm:py-10 bg-gray-50" id="contact">
          <h2 className="text-[#E72929] text-4xl font-bold font-manrope leading-normal pb-6 text-center">Contact Us</h2>
          <div className="grid grid-cols-1 sm:grid-cols-2 gap-10">
          <div>
@@ -83,7 +83,7 @@ const Contact=()=>{
   tabIndex="0"
 /></div>
        </div>
-      </div>
+      </section>
 
 
     )

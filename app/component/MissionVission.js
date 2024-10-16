@@ -1,7 +1,7 @@
 import Image from "next/image";
 const MissionVission=()=>{
     return(
-       <section className=" pt-3 sm:pt-14 px-4 sm:px-20 ">
+       <section className=" pt-3 sm:pt-14 px-4 sm:px-20 " id="mission">
          <h2 className="text-[#E72929] pb-7 text-4xl font-bold font-manrope leading-normal  text-center">
          MISSION & VISION</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2">

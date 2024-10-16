@@ -1,8 +1,9 @@
 import Image from "next/image";
+import Link from "next/link";
 import { FaStaylinked } from "react-icons/fa6";
 const About = () => {
-  return (
-<section className=" py-5 sm:py-10 relative" id="#about">
+ return (
+<section className=" py-5 sm:py-10 relative" id="about">
   <div className="w-full  px-4 sm:px-20">
     <div className="w-full justify-start items-center gap-12 grid lg:grid-cols-2 grid-cols-1">
       <div className="w-full justify-center items-start gap-6 grid sm:grid-cols-2 grid-cols-1 lg:order-first order-last">
@@ -23,16 +24,16 @@ const About = () => {
          <div>
           <div className='flex items-center gap-2 cursor-pointer'>
           <FaStaylinked  className='text-[#E72929]'/>
-          <p className='font-semibold text-black'>Samir Textile (Pvt) Ltd.</p>
+       <Link target="_blank" href={"https://textile.samirgroupbd.com/"}>   <p className='font-semibold text-black'>Samir Textile (Pvt) Ltd.</p></Link>
           </div>
           <div className='flex items-center gap-2 cursor-pointer'>
           <FaStaylinked  className='text-[#E72929]'/>
-          <p className='font-semibold text-black'>Samir Motors Corporation</p>
+          <Link target="_blank" href={"https://motors.samirgroupbd.com/"}><p className='font-semibold text-black'>Samir Motors Corporation</p></Link>
           </div>
          
           <div className='flex items-center gap-2 cursor-pointer'>
           <FaStaylinked  className='text-[#E72929]'/>
-          <p className='font-semibold text-black'>Saimon Agro & Fisheries Farm</p>
+         <Link target="_blank" href={"https://agro.samirgroupbd.com/"}> <p className='font-semibold text-black'>Saimon Agro & Fisheries Farm</p></Link>
           </div>
           <div className='flex items-center gap-2 cursor-pointer'>
           <FaStaylinked  className='text-[#E72929]'/>
@@ -40,7 +41,7 @@ const About = () => {
           </div>
           <div className='flex items-center gap-2 cursor-pointer'>
           <FaStaylinked  className='text-[#E72929]'/>
-          <p className='font-semibold text-black'>Saif Foreign Consultancy</p>
+          <Link target="_blank" href={"https://beta.samirgroupbd.com/"}><p className='font-semibold text-black'>Saif Foreign Consultancy</p></Link>
           </div>
           <div className='flex items-center gap-2 cursor-pointer'>
           <FaStaylinked  className='text-[#E72929]'/>

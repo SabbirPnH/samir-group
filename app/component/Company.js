@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Company = () => {
   return (
-<div className="bg-gray-50 px-4 sm:px-20 sm:pt-10 font-[sans-serif]">
+<section className="bg-gray-50 px-4 sm:px-20 sm:pt-10 font-[sans-serif]" id="company">
   <div>
     <h2 className="text-[#E72929] text-4xl font-bold font-manrope leading-normal uppercase text-center">Our Company</h2>
     <div className="bg-[#F7F7F7] font-[sans-serif]">
@@ -57,7 +57,7 @@ const Company = () => {
       </div>
     </div>
   </div>
-</div>
+</section>
 
 
                                         
